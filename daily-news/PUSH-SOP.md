@@ -34,7 +34,9 @@ git push origin main                 # 直接推送主分支
 若 `git push` 再次因凭证问题失败（如 `GH_TOKEN` 失效或 credential helper 配置丢失），使用 GitHub MCP 工具直接写入远程仓库：
 
 - 工具：`mcp_trae-remote-official_plugin_github_github` 服务的 `create_or_update_file`
+
 - 参数：`owner=zzzlf-1802`，`repo=-RobotTech-`，`branch=main`，`path=daily-news/<文件名>`，`content=<完整Markdown内容>`，`message=<commit信息>`
+
 - 更新已有文件时需提供该文件的 blob SHA（可用 `git rev-parse origin/main:<路径>` 获取）
 
 ## 环境自检（每次自动化执行前可选）
@@ -54,4 +56,6 @@ git config --global credential.helper '!gh auth git-credential'
 ## 冲突处理
 
 - 若本地与远程历史分叉（如兜底方案在远程产生了本地没有的提交），先 `git pull origin main --rebase`；无法干净合并时以远程为准：`git fetch origin && git reset --hard origin/main` 后重新提交本次内容。
+
 - 日报内容冲突时，以本次生成的最新内容为准覆盖。
+
