@@ -1,7 +1,7 @@
 # 人形机器人行业每日资讯 - 2026年09月10日
 
-> 收集时间：2026-09-10 18:00（北京时间）
-> 资讯数量：10条 | 国内3条 | 国外7条 | 学术6条
+> 收集时间：2026-09-10 04:07（北京时间）
+> 资讯数量：7条 | 国内2条 | 国外5条 | 学术4条
 
 ---
 
@@ -18,20 +18,7 @@
 
 ---
 
-## 2. SwingBot: Learning Whole-Body Brachiation for Humanoid Robots（SwingBot：面向人形机器人的全身摆荡运动学习）
-**分类**：技术突破
-**摘要**：研究者提出SwingBot学习框架，首次在高自由度人形机器人上实现连续臂行（brachiation）运动，通过仿生关键帧与递归特权状态估计，使释放-摆荡-捕获的长时序行为可训练并在真机上验证连续横杆穿越。
-**来源**：[arXiv:2609.10283](https://arxiv.org/abs/2609.10283)
-**发布时间**：2026-09-09
-**相关企业/机构**：Yujie Xiong, Lihua Zhang 等（CoRL 2026收录）
-**技术亮点**：
-- 针对人形机器人在杂乱/危险环境中地面路径受阻的场景，提出以被动腕钩实现的连续臂行作为补充运动模式
-- 核心方法：仿生关键帧使罕见的释放-摆荡-捕获转换在早期探索中可达，递归特权状态估计提供紧凑的位置与接触隐变量用于部署
-- 硬件实验验证连续横杆穿越、负载携带、外力扰动恢复及不同杆间距适应性，为全身机器人臂行提供实用路径；技术处于实验室真机验证阶段
-
----
-
-## 3. TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model（TANGO：基于全身视觉-语言-动作模型的杂乱环境人形导航）
+## 2. TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model（TANGO：基于全身视觉-语言-动作模型的杂乱环境人形导航）
 **分类**：技术突破
 **摘要**：研究者提出首个面向语言条件人形穿越的全身视觉-语言导航框架TANGO，直接预测29自由度关节空间动作，在仿真中训练后零样本部署于Unitree G1实现杂乱真实场景语言引导穿越。
 **来源**：[arXiv:2609.09158](https://arxiv.org/abs/2609.09158)
@@ -44,7 +31,7 @@
 
 ---
 
-## 4. DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination（DeCAL：通过接触感知潜在协同想象实现物理接地的灵巧VLA模型）
+## 3. DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination（DeCAL：通过接触感知潜在协同想象实现物理接地的灵巧VLA模型）
 **分类**：技术突破
 **摘要**：提出基于混合Transformer架构的物理接地灵巧VLA模型DeCAL，统一理解、想象与动作生成，在接触丰富的灵巧操作任务上取得71%平均成功率与83.4%进程成功率。
 **来源**：[arXiv:2609.09119](https://arxiv.org/abs/2609.09119)
@@ -57,20 +44,7 @@
 
 ---
 
-## 5. Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain（颗粒地形上的地形自适应人形运动学习）
-**分类**：技术突破
-**摘要**：佐治亚理工团队提出基于三维阻力理论（3D RFT）的颗粒接触模型与师生强化学习框架，首次实现人形机器人在真实颗粒地形（玄武岩、干沙、海滩沙）上的敏捷运动。
-**来源**：[arXiv:2609.10286](https://arxiv.org/abs/2609.10286)
-**发布时间**：2026-09-09
-**相关企业/机构**：Junnosuke Kamohara, Ye Zhao, Seth Hutchinson, Daniel I. Goldman 等（佐治亚理工学院）
-**技术亮点**：
-- 基于3D RFT的物理接地颗粒接触模型，无需启发式规则即可产生物理准确的颗粒侵入动力学，捕捉真实的穿透与切向阻力
-- 师生RL框架：变分自编码器将地形信息编码为紧凑隐变量，实现零样本地形识别与自适应；使用NVIDIA Newton的物质点法（MPM）仿真验证泛化能力
-- 硬件实验覆盖玄武岩、干沙、海滩沙等真实颗粒地形，为已知首个真实颗粒地形上的人形敏捷运动演示；技术处于实验室真机验证阶段
-
----
-
-## 6. 亮源新创发布全身韧性智能技术Light REACT：机器人摔倒后可自主起身，伤损后仍能前行
+## 4. 亮源新创发布全身韧性智能技术Light REACT：机器人摔倒后可自主起身，伤损后仍能前行
 **分类**：技术发布
 **摘要**：具身智能公司亮源新创于9月9日发布面向人形机器人的全身韧性智能技术Light REACT，将故障自适应行走、爬行与摔倒恢复整合进同一控制策略，实现无需故障标签或人工切换模式的自主适应。
 **来源**：[凤凰网科技](https://tech.ifeng.com/c/8wHERG2bYaG)
@@ -83,7 +57,7 @@
 
 ---
 
-## 7. Visible-Reachable Workspace for Perception-Aware Humanoid Design（面向感知的人形设计中的可见-可达工作空间）
+## 5. Visible-Reachable Workspace for Perception-Aware Humanoid Design（面向感知的人形设计中的可见-可达工作空间）
 **分类**：技术突破
 **摘要**：提出"可见-可达工作空间（VRW）"设计度量，并构建一台31自由度、配备独立驱动RGB-D相机的人形机器人，将可见-可达覆盖率由38%提升至97%。
 **来源**：[arXiv:2609.08905](https://arxiv.org/abs/2609.08905)
@@ -96,9 +70,9 @@
 
 ---
 
-## 8. PGMT: Perceptive General Motion Tracking for Humanoid Robots（PGMT：面向人形机器人的感知通用运动跟踪）
+## 6. PGMT: Perceptive General Motion Tracking for Humanoid Robots（PGMT：面向人形机器人的感知通用运动跟踪）
 **分类**：技术突破
-**摘要**：上海交大团队提出感知通用运动跟踪管线PGMT，通过运动条件地形一瞥实现地形自适应跟踪，零样本部署于Unitree G1可在含高达37厘米障碍物的真实地形上执行全身运动。
+**摘要**：提出感知通用运动跟踪管线PGMT，通过运动条件地形一瞥实现地形自适应跟踪，零样本部署于Unitree G1可在含高达37厘米障碍物的真实地形上执行全身运动。
 **来源**：[arXiv:2609.08511](https://arxiv.org/abs/2609.08511)
 **发布时间**：2026-09-08
 **相关企业/机构**：Hongyi Li, Hongtao Wang, Guillaume Sartoretti 等（上海交通大学等）
@@ -109,35 +83,22 @@
 
 ---
 
-## 9. 2026欧洲人形机器人峰会于斯图加特开幕：Honda新一代多指灵巧手、Sanctuary AI通用人形亮相
+## 7. 2026欧洲人形机器人峰会于斯图加特开幕
 **分类**：产品发布
-**摘要**：欧洲首屈一指的人形机器人峰会Humanoid Robots Summit Europe 2026于9月9日至11日在斯图加特Liederhalle文化会议中心举办，汇聚40余家参展商与全球产业领袖，Honda Research Institute Europe在会上揭示新一代多指灵巧手技术突破。
+**摘要**：欧洲首屈一指的人形机器人峰会Humanoid Robots Summit Europe 2026于9月9日至11日在斯图加特Liederhalle文化会议中心举办，汇聚40余家参展商与全球产业领袖，探讨技术创新、商业化与生态构建。
 **来源**：[Humanoid Robots Summit 2026 官网](https://humanoidrobotssummit.com/)
 **发布时间**：2026-09-09
-**相关企业/机构**：ACG Events Global、MassRobotics、PAL Robotics、Sanctuary AI、Honda Research Institute Europe、Fraunhofer IPA、Siemens、Oversonic Robotics 等
+**相关企业/机构**：ACG Events Global、MassRobotics、PAL Robotics、Sanctuary AI、Honda Research Institute Europe 等
 **技术亮点**：
 - 本届峰会设37位演讲嘉宾、1000+参会者、40+参展商，议题覆盖技术创新、商业化、伦理与生态构建
-- Honda Research Institute Europe首席科学家Michael Gienger揭示Honda新一代多指灵巧手突破，该手具备12kg指尖力、穿针与拧螺丝等精细操作、800万次以上耐久性测试，计划2030年代初商业化
-- Sanctuary AI CEO James Wells分享通用人形机器人解决欧洲制造业与服务业劳动力短缺的路径；Fraunhofer IPA探讨工业人形机器人基准测试与标准开发；Siemens分享AI、数字孪生与人形机器人如何重塑未来生产系统
-
----
-
-## 10. IHR2026第二届人形机器人国际峰会今日在上海开幕：聚焦量产突破与多场景落地
-**分类**：产品发布
-**摘要**：IHR2026第二届人形机器人国际峰会于9月10日至11日在上海举办，以"量产时代"为主题，汇聚全球量产领军企业、应用方、政策制定者及投融资机构，围绕核心零部件、整机制造与多场景落地展开讨论。
-**来源**：[IHR2026官网](https://bimi-auto.com/2026IHR)
-**发布时间**：2026-09-10
-**相关企业/机构**：特斯拉、波士顿动力、宇树科技、优必选、斯坦福大学人工智能实验室、Meta AI、红杉资本中国基金、宁德时代、绿的谐波等
-**技术亮点**：
-- 为期两天，议题涵盖政策适配与产业格局、核心零部件技术突破、量产技术与多场景适配、高端场景突破与生态协同
-- 首日聚焦全球人形机器人放量期政策适配与合规治理、核心动力系统技术迭代与量产适配、高功率密度电机与减速器技术突破、人形机器人专用芯片与数据闭环
-- 次日聚焦灵巧手与执行器的多场景量产优化、家庭服务与物流场景规模化应用、大模型驱动的人形机器人"大脑"突破、柔顺控制与运动算法前沿、RaaS商业模式创新
+- 确认演讲嘉宾包括Sanctuary AI CEO James Wells、Honda Research Institute Europe首席科学家Michael Gienger等
+- 继柏林EHRS售罄后移师斯图加特，为欧洲人形机器人领域年度核心产业交流平台
 
 ---
 
 ## 简要总结
-- 当日资讯共10条，以技术突破与学术成果为主（6条），技术发布2条，产业动态2条；国内3条（智元、亮源新创、IHR2026），国外7条。
-- 最具技术价值的方向：全身VLA模型从导航（TANGO）到灵巧操作（DeCAL）持续突破且均实现真机零样本部署或SOTA；新型运动模式（SwingBot臂行、颗粒地形行走）拓展人形机器人环境适应性边界。
-- 产业动态核心特征：智元通过100倍数据Scaling验证具身智能"堆数据"有效性，亮源新创将故障自适应作为规模化部署关键基础，二者共同指向"数据规模×自主适应"的量产路径；中欧两场产业峰会同日开幕，显示全球人形机器人产业进入量产攻坚期。
-- 学术侧6篇论文集中在全身控制、感知-运动耦合、灵巧操作与机构设计，且多直接在Unitree G1等量产平台验证，Sim-to-Real与零样本泛化成为主流范式；其中SwingBot获CoRL 2026收录。
-- 当日全球重量级企业（Tesla/Figure/Boston Dynamics等）无新增独立产品发布，海外动态以学术论文与欧洲产业峰会为主，国内企业技术发布活跃度更高。
+- 当日资讯共7条，以技术发布与学术突破为主，国内聚焦智元与亮源新创的模型/控制技术发布，海外以arXiv人形方向论文与欧洲产业峰会为主。
+- 最具技术价值的方向：全身VLA模型从导航（TANGO）到灵巧操作（DeCAL）持续突破，且均实现真机零样本部署或SOTA性能，显示VLA正从感知-语言向全身动作闭环快速落地。
+- 产业动态核心特征：智元通过100倍数据Scaling验证具身智能"堆数据"的有效性，亮源新创则将故障自适应能力作为规模化部署的关键基础，二者共同指向"数据规模×自主适应"的人形量产路径。
+- 学术侧4篇论文集中在全身控制、感知-运动耦合、灵巧操作与机构设计，且多直接在Unitree G1等量产平台验证，Sim-to-Real与零样本泛化成为主流范式。
+- 当日全球重量级企业（Tesla/Figure/Boston Dynamics等）无新增产品发布，海外动态以学术论文与欧洲产业峰会为主，国内企业技术发布活跃度更高。
