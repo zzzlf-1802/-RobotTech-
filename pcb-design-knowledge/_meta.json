@@ -1,0 +1,274 @@
+{
+  "name": "pcb-design-knowledge",
+  "version": "1.0.2",
+  "last_updated": "2026-09-22T08:35:00Z",
+  "update_count": 3,
+  "description": "PCB设计知识库 - 涵盖原理图设计、PCB布局、高速信号完整性、EMC/EMI、DFM/DFT、热设计、可靠性分析、EDA工具与自动化集成",
+  "language": "zh-CN",
+  "modules": [
+    {
+      "id": "skill",
+      "file": "SKILL.md",
+      "title": "主入口与快速参考",
+      "description": "知识库入口，包含路由表、快速参考、版本信息"
+    },
+    {
+      "id": "design",
+      "file": "design.md",
+      "title": "设计指南",
+      "description": "原理图设计、PCB布局布线、高速SI/PI/EMC、DFM/DFT/DFA、热设计、DDR5/PCIe规范"
+    },
+    {
+      "id": "check",
+      "file": "check.md",
+      "title": "检查清单",
+      "description": "ERC/DRC检查、DFM/DFT检查、SiC热验证、AI设计评审、常见陷阱、最终投板检查"
+    },
+    {
+      "id": "review",
+      "file": "review.md",
+      "title": "设计评审",
+      "description": "评审流程、技能矩阵、EDA工具对比、嘉立创EDA技巧、AI辅助设计评审"
+    },
+    {
+      "id": "analyze",
+      "file": "analyze.md",
+      "title": "分析理论",
+      "description": "电路理论、电磁学、控制理论、数学工具、热分析、可靠性分析"
+    },
+    {
+      "id": "integrate",
+      "file": "integrate.md",
+      "title": "工具集成",
+      "description": "JLCPCB/LCSC API、嘉立创EDA API、KiCad自动化、Altium脚本、AI辅助设计集成"
+    }
+  ],
+  "sources": [
+    {
+      "name": "lcsc.com",
+      "type": "ecommerce",
+      "domain": "元器件选型、BOM管理",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "pcbsync.com",
+      "type": "blog",
+      "domain": "原理图最佳实践",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "pcbway.com",
+      "type": "manufacturing",
+      "domain": "DFM指南",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "advancedpcb.com",
+      "type": "website",
+      "domain": "高级PCB设计",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "leadsintec.com",
+      "type": "website",
+      "domain": "高速SI/PI/EMC",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "han-sphere.com",
+      "type": "blog",
+      "domain": "EMC设计",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "jlcpcb.com",
+      "type": "manufacturing",
+      "domain": "DFM/制造工艺",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "ultralibrarian.com",
+      "type": "library",
+      "domain": "元器件库",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "pcbrunner.com",
+      "type": "blog",
+      "domain": "PCB设计技巧",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "dexpcb.com",
+      "type": "manufacturing",
+      "domain": "DFM/DFT",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "suga-pcba.com",
+      "type": "manufacturing",
+      "domain": "PCBA工艺",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "topfastpcb.com",
+      "type": "manufacturing",
+      "domain": "高速PCB制造",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "flj-pcb.com",
+      "type": "manufacturing",
+      "domain": "PCB制造",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "microncorp.com",
+      "type": "semiconductor",
+      "domain": "存储器件设计指南",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "altium.com",
+      "type": "eda_vendor",
+      "domain": "Altium Designer 26.10.1",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "prodocs.lceda.cn",
+      "type": "documentation",
+      "domain": "嘉立创EDA专业版 v3.2.84",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "lceda.cn",
+      "type": "eda_platform",
+      "domain": "嘉立创EDA",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "jlcgroup.cn",
+      "type": "corporate",
+      "domain": "嘉立创集团",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "open.jlc.com",
+      "type": "open_platform",
+      "domain": "JLCPCB API",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "morepcb.com",
+      "type": "website",
+      "domain": "热设计/重铜",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "andwinpcb.com",
+      "type": "manufacturing",
+      "domain": "重铜PCB",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "anypcba.com",
+      "type": "manufacturing",
+      "domain": "PCBA热设计",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "hitop-tech.com",
+      "type": "website",
+      "domain": "SiC/GaN热设计",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "bqr.com",
+      "type": "reliability_tool",
+      "domain": "FMEA/MTBF",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "ultroniu.com",
+      "type": "blog",
+      "domain": "可靠性/DDR5",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "trigopi.com",
+      "type": "website",
+      "domain": "可靠性分析",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "ti.com",
+      "type": "semiconductor",
+      "domain": "接口设计指南",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "hilelectronic.com",
+      "type": "blog",
+      "domain": "DDR/PCIe布局",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "ugpcb.com",
+      "type": "website",
+      "domain": "AI辅助PCB设计",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "arxiv.org",
+      "type": "academic",
+      "domain": "pcbGPT研究",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "cadence.com",
+      "type": "eda_vendor",
+      "domain": "AuraStack AI",
+      "last_verified": "2026-09"
+    },
+    {
+      "name": "siemens.com",
+      "type": "eda_vendor",
+      "domain": "AI设计工具",
+      "last_verified": "2026-09"
+    }
+  ],
+  "tags": [
+    "PCB设计",
+    "高速设计",
+    "信号完整性",
+    "电源完整性",
+    "EMC",
+    "DFM",
+    "DFT",
+    "DFA",
+    "热设计",
+    "可靠性",
+    "EDA工具",
+    "嘉立创EDA",
+    "Altium",
+    "KiCad",
+    "Cadence",
+    "AI辅助设计",
+    "DDR5",
+    "PCIe",
+    "SiC",
+    "GaN",
+    "DBC",
+    "重铜",
+    "FMEA",
+    "MTBF",
+    "威布尔分析",
+    "EOS",
+    "GJB",
+    "pcbGPT",
+    "AuraStack",
+    "GPT-6",
+    "Rule Sets"
+  ],
+  "changelog": "CHANGELOG.md"
+}
